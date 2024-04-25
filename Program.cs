@@ -5,5 +5,12 @@
         b=10;
         c = a+b;
         Console.WriteLine(c);
+        /**
+        In windows system console window might 
+        disappear after printing the last line 
+        so keeping we can use 
+        
+        Console.ReadLine(); // this will wait for input on console window.
+         */
     }
 }
