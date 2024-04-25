@@ -1,0 +1,15 @@
+/Users/amolsaxena/Code/Developer-Training/bin/Debug/net8.0/Developer-Training
+/Users/amolsaxena/Code/Developer-Training/bin/Debug/net8.0/Developer-Training.deps.json
+/Users/amolsaxena/Code/Developer-Training/bin/Debug/net8.0/Developer-Training.runtimeconfig.json
+/Users/amolsaxena/Code/Developer-Training/bin/Debug/net8.0/Developer-Training.dll
+/Users/amolsaxena/Code/Developer-Training/bin/Debug/net8.0/Developer-Training.pdb
+/Users/amolsaxena/Code/Developer-Training/obj/Debug/net8.0/Developer-Training.GeneratedMSBuildEditorConfig.editorconfig
+/Users/amolsaxena/Code/Developer-Training/obj/Debug/net8.0/Developer-Training.AssemblyInfoInputs.cache
+/Users/amolsaxena/Code/Developer-Training/obj/Debug/net8.0/Developer-Training.AssemblyInfo.cs
+/Users/amolsaxena/Code/Developer-Training/obj/Debug/net8.0/Developer-Training.csproj.CoreCompileInputs.cache
+/Users/amolsaxena/Code/Developer-Training/obj/Debug/net8.0/Developer-Training.sourcelink.json
+/Users/amolsaxena/Code/Developer-Training/obj/Debug/net8.0/Developer-Training.dll
+/Users/amolsaxena/Code/Developer-Training/obj/Debug/net8.0/refint/Developer-Training.dll
+/Users/amolsaxena/Code/Developer-Training/obj/Debug/net8.0/Developer-Training.pdb
+/Users/amolsaxena/Code/Developer-Training/obj/Debug/net8.0/Developer-Training.genruntimeconfig.cache
+/Users/amolsaxena/Code/Developer-Training/obj/Debug/net8.0/ref/Developer-Training.dll
