@@ -180,6 +180,10 @@ namespace datatypes
             
             string fullName = $"Mr. {firstName} {lastName}, Code: {code}";
 
+            // String is mutable in C# like Java & python. (ref type)
+
         }
+        // The ternary operator is right-associative. The expression a ? b : c ? d : e 
+        // is evaluated as a ? b : (c ? d : e), not as (a ? b : c) ? d : e.
     }
 }

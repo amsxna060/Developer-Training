@@ -1,5 +1,6 @@
 ﻿using variablevar;
 using datatypes;
+using programss;
 class MyClass{
     static void Main(string[] args){
         int a,b,c;
@@ -19,8 +20,9 @@ class MyClass{
 
         // Execution of UseOfVar file
         // UseOfVar.Var();
-        Datatype.convertStrToInt();
-        Strings.RunStrings();
+        // Datatype.convertStrToInt();
+        // Strings.RunStrings();
+        Programs.Average();
 
     }
 }

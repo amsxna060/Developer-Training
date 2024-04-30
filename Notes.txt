@@ -1,0 +1,23 @@
+The switch cases without break, return, or goto statement or 
+with the same constant values would give a compile-time error.
+
+case 1: // Error - Control cannot fall through from one case label ('case 1:') to another
+        Console.WriteLine($"{x} is odd Value");
+
+1. The switch statement is an alternative to if else statement.
+2. The switch statement tests a match expression/variable against a set of constants specified as cases.
+3. The switch case must include break, return, goto keyword to exit a case.
+4. The switch can include one optional default label, which will be executed when no case executed.
+5. C# compiler will give errors on missing :, constant value with cases, exit from a case.
+6. C# 7.0 onward, switch cases can include non-unique values. In this case, the first matching case will be executed.
+
+
+for loop, 
+// it can also use any numeric datatype like float double etc.
+for (double d = 1.01D; d < 1.10; d+= 0.01D)
+{
+    Console.WriteLine("Value of i: {0}", d);
+}
+
+A for loop can also contain statements as an initializer and iterator.
+loop body can we empty.
