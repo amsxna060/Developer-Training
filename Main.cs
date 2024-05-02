@@ -22,7 +22,13 @@ class MyClass{
         // UseOfVar.Var();
         // Datatype.convertStrToInt();
         // Strings.RunStrings();
-        Programs.Average();
+        // Programs.Average();
+
+        // string ans = Programs.AverageByArray(5);
+        // Console.WriteLine(ans);
+
+        Programs.ReverseString("Hello this is a Reversed Strings");
+
 
     }
 }
