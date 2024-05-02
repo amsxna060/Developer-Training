@@ -86,6 +86,8 @@ namespace college
         {
             double CGPA = (((float)marks.Sum()) / (no_of_subjects * 100)) * 10;
             if (CGPA>=3.5){
+                // IsPassed = 1; // invalid
+                // IsPassed = "True"; // invalid
                 IsPassed = true;
             }
             string result = IsPassed?"Passed":"Failed";

@@ -2,6 +2,7 @@
 using datatypes;
 using programss;
 using college;
+using games;
 class MyClass{
     static void Main(string[] args){
         int a,b,c;
@@ -31,10 +32,13 @@ class MyClass{
         // Programs.ReverseString("Hello this is a Reversed Strings");
 
 
-        // Code regarding Cgpa calculator;
-        CGPA_Cal c1 = new CGPA_Cal("Amol Saxena",21,5);
-        c1.inputMarks();
-        c1.printMarks();
-        c1.printCGPA();
+        // // Code regarding Cgpa calculator;
+        // CGPA_Cal c1 = new CGPA_Cal("Amol Saxena",21,2);
+        // c1.inputMarks();
+        // c1.printMarks();
+        // c1.printCGPA();
+
+        // code regarding RPS
+        Game.RockPaperScissor();
     }
 }
