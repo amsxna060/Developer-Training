@@ -11,6 +11,7 @@
         - calling of base class constructor, 
         - accessing base class field in sub class.
 */
+using System;
 namespace college
 {
     public class InvalidMarks : Exception
@@ -34,10 +35,12 @@ namespace college
     {
         int no_of_subjects;
         int[] marks;
+        bool IsPassed;
         public CGPA_Cal(string name, int roll_no) : base(name, roll_no)
         {
             no_of_subjects = 0;
             marks = null;
+            IsPassed = false;
         }
         public CGPA_Cal(string name, int roll_no, int n) : base(name, roll_no)
         {
@@ -81,7 +84,15 @@ namespace college
 
         public void printCGPA()
         {
-            Console.WriteLine($"CGPA of {this.name} roll no {this.roll_no} is {(((float)marks.Sum()) / (no_of_subjects * 100)) * 10}CGP.");
+            double CGPA = (((float)marks.Sum()) / (no_of_subjects * 100)) * 10;
+            if (CGPA>=3.5){
+                IsPassed = true;
+            }
+            string result = IsPassed?"Passed":"Failed";
+            // Console.WriteLine($"CGPA of {this.name}, roll no {this.roll_no} is {CGPA} CGPA.\nHe is {IsPassed?"Passed":"Failed"}.");
+            // Console.WriteLine($"CGPA of {this.name}, roll no {this.roll_no} is {CGPA} CGPA.\nHe is {IsPassed?passed:failed}."); 
+            ///// -- In above statement we can't write ternary operator in String interpolation because : end interpolation.
+            Console.WriteLine($"CGPA of {this.name}, roll no {this.roll_no} is {CGPA} CGPA.\nHe is {result}.");
         }
     }
 }

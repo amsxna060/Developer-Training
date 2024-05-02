@@ -32,7 +32,7 @@ class MyClass{
 
 
         // Code regarding Cgpa calculator;
-        CGPA_Cal c1 = new CGPA_Cal("Amol Saxena",21,2);
+        CGPA_Cal c1 = new CGPA_Cal("Amol Saxena",21,5);
         c1.inputMarks();
         c1.printMarks();
         c1.printCGPA();
